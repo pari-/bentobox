@@ -26,6 +26,12 @@ Put the appropriate ISO in `${ISO_DIR}` and run:
 BENTO_BOX_VERSION="9.1" bash build.sh
 ```
 
+or:
+
+```bash
+BENTO_BOX_TYPE="centos" BENTO_BOX_VERSION="7.3" BENTO_BOX_ARCH="x86_64" bash build.sh
+```
+
 (this is useful for i.e. offline builds and/or not relying on packer's cache)
 
 ### remote ISO
@@ -34,6 +40,12 @@ Or just run the following, which will download the appropriate ISO automatically
 
 ```bash
 PACKER_OPTIONS="-only=parallels-iso" BENTO_BOX_VERSION="9.1" bash build.sh
+```
+
+or:
+
+```bash
+PACKER_OPTIONS="-only=parallels-iso" BENTO_BOX_TYPE="centos" BENTO_BOX_VERSION="7.3" BENTO_BOX_ARCH="x86_64" bash build.sh
 ```
 
 ## Configuration
