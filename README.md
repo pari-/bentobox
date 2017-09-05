@@ -8,9 +8,8 @@ A convenience layer for building bento-based Vagrant boxes
   * [local ISO](#local-iso)
   * [remote ISO](#remote-iso)
 - [Configuration](#configuration)
-- [Dependencies](#dependencies)
 - [License](#license)
-- [Author Information](#author-information)
+- [Artwork](#artwork)
 
 <!-- tocstop -->
 
@@ -74,7 +73,5 @@ option | default
 
 MIT
 
-## Author Information
-
-* Patrick Ringl
-* Emoji artwork provided by [EmojiOne](https://www.emojione.com)
+## Artwork
+* [bento box](https://api.emojione.com/emoji/1f371/download/32) Emoji artwork provided by [EmojiOne](https://www.emojione.com)
