@@ -65,7 +65,7 @@ option | default
 `PACKER_DIR` | `${HOME}/Downloads/packer` 
 `PACKER_DOWNLOAD_URL` | `https://releases.hashicorp.com/packer/${PACKER_VERSION}/${PACKER_DOWNLOAD_FILE}` 
 `PACKER_DOWNLOAD_FILE` | `packer_${PACKER_VERSION}_darwin_amd64.zip`
-`PACKER_VERSION` | `1.0.4` 
+`PACKER_VERSION` | `1.1.0` 
 `PACKER_OPTIONS` | `-var mirror=${ISO_DIR}/ -var mirror_directory= -only=parallels-iso`
 `VAGRANT_BOX_DIR` | `${HOME}/config/vagrant_boxes` 
 
