@@ -22,7 +22,7 @@ Basically you have two options:
 Put the appropriate ISO in `${ISO_DIR}` and run:
 
 ```bash
-BENTO_BOX_VERSION="9.2" bash build.sh
+BENTO_BOX_VERSION="9.3" bash build.sh
 ```
 
 or:
@@ -38,7 +38,7 @@ BENTO_BOX_TYPE="centos" BENTO_BOX_VERSION="7.3" BENTO_BOX_ARCH="x86_64" bash bui
 Or just run the following, which will download the appropriate ISO automatically:
 
 ```bash
-PACKER_OPTIONS="-only=parallels-iso" BENTO_BOX_VERSION="9.2" bash build.sh
+PACKER_OPTIONS="-only=parallels-iso" BENTO_BOX_VERSION="9.3" bash build.sh
 ```
 
 or:
