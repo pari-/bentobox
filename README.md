@@ -22,7 +22,7 @@ Basically you have two options:
 Put the appropriate ISO in `${ISO_DIR}` and run:
 
 ```bash
-BENTO_BOX_VERSION="9.3" bash build.sh
+BENTO_BOX_VERSION="9.4" bash build.sh
 ```
 
 or:
@@ -38,7 +38,7 @@ BENTO_BOX_TYPE="centos" BENTO_BOX_VERSION="7.3" BENTO_BOX_ARCH="x86_64" bash bui
 Or just run the following, which will download the appropriate ISO automatically:
 
 ```bash
-PACKER_OPTIONS="-only=parallels-iso" BENTO_BOX_VERSION="9.3" bash build.sh
+PACKER_OPTIONS="-only=parallels-iso" BENTO_BOX_VERSION="9.4" bash build.sh
 ```
 
 or:
@@ -58,7 +58,7 @@ option | default
 `BENTO_BOX_NAME` | `${BENTO_BOX_PROVIDER}/${BENTO_BOX_TYPE}-${BENTO_BOX_VERSION}`
 `BENTO_BOX_PROVIDER` | `parallels`
 `BENTO_BOX_TYPE` | `debian` 
-`BENTO_BOX_VERSION` | `9.3`
+`BENTO_BOX_VERSION` | `9.4`
 `BENTO_DIR` | `${HOME}/development/bento` 
 `BENTO_REPO` | `https://github.com/pari-/bento` 
 `BENTO_REPO_BRANCH` | `local_mods`
@@ -66,7 +66,7 @@ option | default
 `PACKER_DIR` | `${HOME}/Downloads/packer` 
 `PACKER_DOWNLOAD_URL` | `https://releases.hashicorp.com/packer/${PACKER_VERSION}/${PACKER_DOWNLOAD_FILE}` 
 `PACKER_DOWNLOAD_FILE` | `packer_${PACKER_VERSION}_darwin_amd64.zip`
-`PACKER_VERSION` | `1.1.3` 
+`PACKER_VERSION` | `1.2.1`
 `PACKER_OPTIONS` | `-var mirror=${ISO_DIR}/ -var mirror_directory= -only="{BENTO_BOX_PROVIDER}-iso`
 `VAGRANT_BOX_DIR` | `${HOME}/config/vagrant_boxes` 
 
