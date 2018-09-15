@@ -10,7 +10,7 @@ BENTO_REPO=${BENTO_REPO:-"https://github.com/pari-/bento"}
 BENTO_REPO_BRANCH=${BENTO_REPO_BRANCH:-"local_mods"}
 ISO_DIR=${ISO_DIR:-"${HOME}/isos"}
 PACKER_DIR=${PACKER_DIR:-"${HOME}/Downloads/packer"}
-PACKER_VERSION=${PACKER_VERSION:-"1.2.5"}
+PACKER_VERSION=${PACKER_VERSION:-"1.3.1"}
 PACKER_DOWNLOAD_FILE=${PACKER_DOWNLOAD_FILE:-"packer_${PACKER_VERSION}_darwin_amd64.zip"}
 PACKER_DOWNLOAD_URL=${PACKER_DOWNLOAD_URL:-"https://releases.hashicorp.com/packer/${PACKER_VERSION}"}
 PACKER_OPTIONS=${PACKER_OPTIONS:-"-var mirror=${ISO_DIR}/ -var mirror_directory= -only=${BENTO_BOX_PROVIDER}-iso"}
